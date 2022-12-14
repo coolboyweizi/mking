@@ -16,7 +16,6 @@
             "name": "mking"
         }
     ],
-    "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
