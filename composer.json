@@ -1,0 +1,29 @@
+{
+    "name": "mking/packages",
+    "description": "mking package",
+    "type": "library",
+    "require": {
+        "laravel/laravel": "9.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mking\\Packages\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mking"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mking\\Packages\\MkingServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    }
+}
